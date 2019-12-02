@@ -1,0 +1,20 @@
+body{
+    margin:0;
+}
+.header{
+    color: hsla(0,0%,100%,.7);
+    background-color: #24292e;
+    height:60px;
+    margin:0;
+    display:flex;
+}
+.indicator{
+    margin-left:3px;
+    margin-top: 3px;
+}
+.Header-link{
+    color: white;
+}
+.octicon{
+    fill: currentColor;
+}
