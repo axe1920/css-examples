@@ -4,17 +4,77 @@ body{
 .header{
     color: hsla(0,0%,100%,.7);
     background-color: #24292e;
-    height:60px;
+    height:32px;
+    padding:16px;
     margin:0;
     display:flex;
+    font-size: 14px;
 }
 .indicator{
-    margin-left:3px;
-    margin-top: 3px;
+    margin-right:16px
+
 }
 .Header-link{
     color: white;
 }
+.text-search-container{
+    display:flex;
+}
+
 .octicon{
     fill: currentColor;
+}
+.text-search-container{
+    margin-right:16px;
+    align-self: stretch;
+    vertical-align: middle;
+    align-items: center;
+    flex-direction: row;
+    width:100%;
+}
+.header-search-label{
+    display:flex;
+    line-height: 20px;
+    max-width: 100%;
+    min-height: 28px;
+    background-color: hsla(0, 0%, 100%, .125);
+    align-items: center;
+    vertical-align: middle;
+}
+.header-search-input{
+    color: white;
+    display:table-cell;
+    background: none;
+    border:0;
+    box-shadow: none;
+    padding-left: 8px;
+    padding-right:8px;
+    width: 100%;
+    border-radius: 3px;
+}
+.header-search{
+    height:28px;
+    min-width: 300px;
+    background-color: #24292e;
+    margin-right: 16px;
+    color: hsla(0, 0%, 100%, .7);
+}
+.header-input-image{
+    border:none;
+    line-height: 20px;
+    margin-right: 8px;
+}
+
+.header-nav > a{
+    margin-right: 16px;
+}
+.header-nav{
+    display:flex;
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-weight: 600;
+    align-self: auto;
+    height:21px;
+    line-height: 1.5;
+
 }
